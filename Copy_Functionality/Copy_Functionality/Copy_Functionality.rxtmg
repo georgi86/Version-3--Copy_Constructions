@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modulegroupdoc
+rxversion="7.0">
+  <testsuiteentryhierarchy>
+    <flatlistofchildren>
+      <modulegroups
+      name="Copy_Functionality"
+      id="83eb88d3-dfdb-4f5c-a84d-0afdec35d123"/>
+    </flatlistofchildren>
+    <childhierarchy>
+      <modulegroups
+      name="Copy_Functionality"
+      id="83eb88d3-dfdb-4f5c-a84d-0afdec35d123"/>
+    </childhierarchy>
+  </testsuiteentryhierarchy>
+</modulegroupdoc>

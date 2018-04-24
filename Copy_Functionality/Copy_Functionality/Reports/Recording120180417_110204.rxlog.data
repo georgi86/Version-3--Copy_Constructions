@@ -1,0 +1,334 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="820ea4751b7955c"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="EVMX"
+		host="SNAPDM200"
+		rxversion="7.0.1.0"
+		osversion="Windows 7 Service Pack 1 32bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1920x1080"
+		timestamp="4/17/2018 11:02:06"
+		timestampiso="2018-04-17T08:02:06"
+		timeoutfactor="1"
+		module="Recording1">
+		<detail>
+			Recording1
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.061"
+			timeRelativeToTestModuleStartTime="00:00.061"
+			timeWallClock="11:02:06"
+			time="00:00.061"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'SnapXUntitled.Element94' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Snap-X - [Untitled]']/element[@controlid='94']"
+				fullname="Copy_FunctionalityRepository.SnapXUntitled.Element94"
+				id="9c9bfffd13324aec93b76e42afaf4b29"
+				timeout="60000"
+				codefile="d:\Joro\GIT_Automations\VERSION 3\AutomationCopy\Copy_Functionality\Copy_Functionality\Recording1.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.955"
+			timeRelativeToTestModuleStartTime="00:00.955"
+			timeWallClock="11:02:07"
+			time="00:00.955"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence '{LMenu}'.
+			</message>
+			<metainfo
+				itemindex="1"
+				codefile="d:\Joro\GIT_Automations\VERSION 3\AutomationCopy\Copy_Functionality\Copy_Functionality\Recording1.cs"
+				codeline="86"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.161"
+			timeRelativeToTestModuleStartTime="00:01.161"
+			timeWallClock="11:02:07"
+			time="00:01.161"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence 'f'.
+			</message>
+			<metainfo
+				itemindex="2"
+				codefile="d:\Joro\GIT_Automations\VERSION 3\AutomationCopy\Copy_Functionality\Copy_Functionality\Recording1.cs"
+				codeline="90"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.364"
+			timeRelativeToTestModuleStartTime="00:01.364"
+			timeWallClock="11:02:07"
+			time="00:01.364"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence 'o'.
+			</message>
+			<metainfo
+				itemindex="3"
+				codefile="d:\Joro\GIT_Automations\VERSION 3\AutomationCopy\Copy_Functionality\Copy_Functionality\Recording1.cs"
+				codeline="94"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.567"
+			timeRelativeToTestModuleStartTime="00:01.567"
+			timeWallClock="11:02:07"
+			time="00:01.567"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 2s.
+			</message>
+			<metainfo
+				itemindex="4"
+				codefile="d:\Joro\GIT_Automations\VERSION 3\AutomationCopy\Copy_Functionality\Copy_Functionality\Recording1.cs"
+				codeline="98"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.569"
+			timeRelativeToTestModuleStartTime="00:03.569"
+			timeWallClock="11:02:09"
+			time="00:03.569"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence '{Delete}'.
+			</message>
+			<metainfo
+				itemindex="5"
+				codefile="d:\Joro\GIT_Automations\VERSION 3\AutomationCopy\Copy_Functionality\Copy_Functionality\Recording1.cs"
+				codeline="101"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.781"
+			timeRelativeToTestModuleStartTime="00:03.781"
+			timeWallClock="11:02:10"
+			time="00:03.781"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence 'D:\Joro\GIT_Automations\VERSION 3\AutomationCopy\Routine\Copy.mxy'.
+			</message>
+			<metainfo
+				itemindex="6"
+				codefile="d:\Joro\GIT_Automations\VERSION 3\AutomationCopy\Copy_Functionality\Copy_Functionality\Recording1.cs"
+				codeline="105"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.508"
+			timeRelativeToTestModuleStartTime="00:10.508"
+			timeWallClock="11:02:16"
+			time="00:10.508"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence '{Return}'.
+			</message>
+			<metainfo
+				itemindex="7"
+				codefile="d:\Joro\GIT_Automations\VERSION 3\AutomationCopy\Copy_Functionality\Copy_Functionality\Recording1.cs"
+				codeline="109"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.712"
+			timeRelativeToTestModuleStartTime="00:10.712"
+			timeWallClock="11:02:16"
+			time="00:10.712"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 2s.
+			</message>
+			<metainfo
+				itemindex="8"
+				codefile="d:\Joro\GIT_Automations\VERSION 3\AutomationCopy\Copy_Functionality\Copy_Functionality\Recording1.cs"
+				codeline="113"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:12.714"
+			timeRelativeToTestModuleStartTime="00:12.714"
+			timeWallClock="11:02:18"
+			time="00:12.714"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'SnapXUntitled.Element94' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Snap-X - [Untitled]']/element[@controlid='94']"
+				fullname="Copy_FunctionalityRepository.SnapXUntitled.Element94"
+				id="9c9bfffd13324aec93b76e42afaf4b29"
+				timeout="60000"
+				codefile="d:\Joro\GIT_Automations\VERSION 3\AutomationCopy\Copy_Functionality\Copy_Functionality\Recording1.cs"
+				codeline="116"
+				itemindex="9"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:14.136"
+			timeRelativeToTestModuleStartTime="00:14.136"
+			timeWallClock="11:02:20"
+			time="00:14.136"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence '{LMenu}'.
+			</message>
+			<metainfo
+				itemindex="10"
+				codefile="d:\Joro\GIT_Automations\VERSION 3\AutomationCopy\Copy_Functionality\Copy_Functionality\Recording1.cs"
+				codeline="120"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:14.339"
+			timeRelativeToTestModuleStartTime="00:14.339"
+			timeWallClock="11:02:20"
+			time="00:14.339"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence 'f'.
+			</message>
+			<metainfo
+				itemindex="11"
+				codefile="d:\Joro\GIT_Automations\VERSION 3\AutomationCopy\Copy_Functionality\Copy_Functionality\Recording1.cs"
+				codeline="124"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:14.552"
+			timeRelativeToTestModuleStartTime="00:14.552"
+			timeWallClock="11:02:20"
+			time="00:14.552"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence 'r'.
+			</message>
+			<metainfo
+				itemindex="12"
+				codefile="d:\Joro\GIT_Automations\VERSION 3\AutomationCopy\Copy_Functionality\Copy_Functionality\Recording1.cs"
+				codeline="128"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:14.757"
+			timeRelativeToTestModuleStartTime="00:14.757"
+			timeWallClock="11:02:21"
+			time="00:14.757"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'SnapXUntitled.ButtonOK' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Snap-X - [Untitled]']/container[@controlid='59648']/form//button[@text='&amp;OK']"
+				fullname="Copy_FunctionalityRepository.SnapXUntitled.ButtonOK"
+				id="c453c8d715a94be989b380085617bb5f"
+				timeout="60000"
+				codefile="d:\Joro\GIT_Automations\VERSION 3\AutomationCopy\Copy_Functionality\Copy_Functionality\Recording1.cs"
+				codeline="132"
+				itemindex="13"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:21.536"
+			timeRelativeToTestModuleStartTime="00:21.536"
+			timeWallClock="11:02:27"
+			time="00:21.536"
+			level="Info"
+			category="Wait">
+			<message>
+				Waiting 10m for item 'SnapXUntitled.Finish' to exist.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Snap-X - [Untitled]']/container[@controlid='59648']/form[@title='Copy.mxy']//button[@text='Finish']"
+				fullname="Copy_FunctionalityRepository.SnapXUntitled.Finish"
+				id="8b6165b8bcbc4172b6f1e071d505d79b"
+				timeout="600000"
+				codefile="d:\Joro\GIT_Automations\VERSION 3\AutomationCopy\Copy_Functionality\Copy_Functionality\Recording1.cs"
+				codeline="136"
+				itemindex="14"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:23.422"
+			timeRelativeToTestModuleStartTime="00:23.422"
+			timeWallClock="11:02:29"
+			time="00:23.422"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'SnapXUntitled.Finish' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Snap-X - [Untitled]']/container[@controlid='59648']/form[@title='Copy.mxy']//button[@text='Finish']"
+				fullname="Copy_FunctionalityRepository.SnapXUntitled.Finish"
+				id="8b6165b8bcbc4172b6f1e071d505d79b"
+				timeout="60000"
+				codefile="d:\Joro\GIT_Automations\VERSION 3\AutomationCopy\Copy_Functionality\Copy_Functionality\Recording1.cs"
+				codeline="139"
+				itemindex="15"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

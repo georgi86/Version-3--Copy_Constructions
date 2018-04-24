@@ -1,0 +1,304 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="5.4m"
+		durationms="325613"
+		type="root"
+		rid="1356e49706a4f7d6"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="EVMX"
+		host="SNAPDM200"
+		rxversion="7.0.1.0"
+		osversion="Windows 7 Service Pack 1 32bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1920x1080"
+		timestamp="4/23/2018 17:10:20"
+		timestampiso="2018-04-23T14:10:20"
+		timeoutfactor="1"
+		module="Action_StepByStep">
+		<detail>
+			Action_StepByStep
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.064"
+			timeRelativeToTestModuleStartTime="00:00.064"
+			timeWallClock="17:10:20"
+			time="00:00.064"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'SnapXUntitled.TitleBar' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Snap-X - [Untitled]']/element[@controlid='94']"
+				fullname="Copy_FunctionalityRepository.SnapXUntitled.TitleBar"
+				id="9c9bfffd13324aec93b76e42afaf4b29"
+				timeout="630000"
+				codefile="d:\Joro\GIT_Automations\VERSION 3\AutomationCopy\Copy_Functionality\Copy_Functionality\Action_StepByStep.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.893"
+			timeRelativeToTestModuleStartTime="00:00.893"
+			timeWallClock="17:10:21"
+			time="00:00.893"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence '{LMenu}'.
+			</message>
+			<metainfo
+				itemindex="1"
+				codefile="d:\Joro\GIT_Automations\VERSION 3\AutomationCopy\Copy_Functionality\Copy_Functionality\Action_StepByStep.cs"
+				codeline="86"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.095"
+			timeRelativeToTestModuleStartTime="00:01.095"
+			timeWallClock="17:10:21"
+			time="00:01.095"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence 'f'.
+			</message>
+			<metainfo
+				itemindex="2"
+				codefile="d:\Joro\GIT_Automations\VERSION 3\AutomationCopy\Copy_Functionality\Copy_Functionality\Action_StepByStep.cs"
+				codeline="90"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.299"
+			timeRelativeToTestModuleStartTime="00:01.299"
+			timeWallClock="17:10:22"
+			time="00:01.299"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence 'o'.
+			</message>
+			<metainfo
+				itemindex="3"
+				codefile="d:\Joro\GIT_Automations\VERSION 3\AutomationCopy\Copy_Functionality\Copy_Functionality\Action_StepByStep.cs"
+				codeline="94"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.505"
+			timeRelativeToTestModuleStartTime="00:01.505"
+			timeWallClock="17:10:22"
+			time="00:01.505"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 2s.
+			</message>
+			<metainfo
+				itemindex="4"
+				codefile="d:\Joro\GIT_Automations\VERSION 3\AutomationCopy\Copy_Functionality\Copy_Functionality\Action_StepByStep.cs"
+				codeline="98"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.516"
+			timeRelativeToTestModuleStartTime="00:03.516"
+			timeWallClock="17:10:24"
+			time="00:03.516"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence 'D:\Joro\GIT_Automations\VERSION 3\AutomationCopy\Routine\dd.mxy'.
+			</message>
+			<metainfo
+				itemindex="5"
+				codefile="d:\Joro\GIT_Automations\VERSION 3\AutomationCopy\Copy_Functionality\Copy_Functionality\Action_StepByStep.cs"
+				codeline="101"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.025"
+			timeRelativeToTestModuleStartTime="00:10.025"
+			timeWallClock="17:10:30"
+			time="00:10.025"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence '{Return}'.
+			</message>
+			<metainfo
+				itemindex="6"
+				codefile="d:\Joro\GIT_Automations\VERSION 3\AutomationCopy\Copy_Functionality\Copy_Functionality\Action_StepByStep.cs"
+				codeline="105"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.229"
+			timeRelativeToTestModuleStartTime="00:10.229"
+			timeWallClock="17:10:31"
+			time="00:10.229"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 2s.
+			</message>
+			<metainfo
+				itemindex="7"
+				codefile="d:\Joro\GIT_Automations\VERSION 3\AutomationCopy\Copy_Functionality\Copy_Functionality\Action_StepByStep.cs"
+				codeline="109"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:12.230"
+			timeRelativeToTestModuleStartTime="00:12.230"
+			timeWallClock="17:10:33"
+			time="00:12.230"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'SnapXUntitled.TitleBar' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Snap-X - [Untitled]']/element[@controlid='94']"
+				fullname="Copy_FunctionalityRepository.SnapXUntitled.TitleBar"
+				id="9c9bfffd13324aec93b76e42afaf4b29"
+				timeout="630000"
+				codefile="d:\Joro\GIT_Automations\VERSION 3\AutomationCopy\Copy_Functionality\Copy_Functionality\Action_StepByStep.cs"
+				codeline="112"
+				itemindex="8"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:12.982"
+			timeRelativeToTestModuleStartTime="00:12.982"
+			timeWallClock="17:10:33"
+			time="00:12.982"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence '{LMenu}'.
+			</message>
+			<metainfo
+				itemindex="9"
+				codefile="d:\Joro\GIT_Automations\VERSION 3\AutomationCopy\Copy_Functionality\Copy_Functionality\Action_StepByStep.cs"
+				codeline="116"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:13.186"
+			timeRelativeToTestModuleStartTime="00:13.186"
+			timeWallClock="17:10:34"
+			time="00:13.186"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence 'f'.
+			</message>
+			<metainfo
+				itemindex="10"
+				codefile="d:\Joro\GIT_Automations\VERSION 3\AutomationCopy\Copy_Functionality\Copy_Functionality\Action_StepByStep.cs"
+				codeline="120"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:13.392"
+			timeRelativeToTestModuleStartTime="00:13.392"
+			timeWallClock="17:10:34"
+			time="00:13.392"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence 'r'.
+			</message>
+			<metainfo
+				itemindex="11"
+				codefile="d:\Joro\GIT_Automations\VERSION 3\AutomationCopy\Copy_Functionality\Copy_Functionality\Action_StepByStep.cs"
+				codeline="124"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:13.595"
+			timeRelativeToTestModuleStartTime="00:13.595"
+			timeWallClock="17:10:34"
+			time="00:13.595"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence '{Return}'.
+			</message>
+			<metainfo
+				itemindex="12"
+				codefile="d:\Joro\GIT_Automations\VERSION 3\AutomationCopy\Copy_Functionality\Copy_Functionality\Action_StepByStep.cs"
+				codeline="128"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:13.803"
+			timeRelativeToTestModuleStartTime="00:13.803"
+			timeWallClock="17:10:34"
+			time="00:13.803"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'SnapXCopyMxy.Finish' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Snap-X - [Copy.mxy]']/container[@controlid='59648']/form//button[@text='Finish' and @enabled='True']"
+				fullname="Copy_FunctionalityRepository.SnapXCopyMxy.Finish"
+				id="8089a60c0f3f42bca7bea94b7a1e69f6"
+				timeout="630000"
+				codefile="d:\Joro\GIT_Automations\VERSION 3\AutomationCopy\Copy_Functionality\Copy_Functionality\Action_StepByStep.cs"
+				codeline="132"
+				itemindex="13"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="05:25.613"
+			timeRelativeToTestModuleStartTime="05:25.613"
+			timeWallClock="17:15:46"
+			time="05:25.613"
+			level="Error"
+			category="Module">
+			<message>
+				The test run has been aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

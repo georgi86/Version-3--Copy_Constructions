@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="f1ffd57bc3eb548"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="1"
+		totalblockedtestcasecount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="EVMX"
+		host="SNAPDM200"
+		rxversion="7.0.1.0"
+		osversion="Windows 7 Service Pack 1 32bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1920x1080"
+		timestamp="4/17/2018 10:41:43"
+		timestampiso="2018-04-17T07:41:43"
+		timeoutfactor="1"
+		module="Recording1">
+		<detail>
+			Recording1
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.059"
+			timeRelativeToTestModuleStartTime="00:00.059"
+			timeWallClock="10:41:43"
+			time="00:00.059"
+			level="Info"
+			category="Mouse"
+			errimg=".\Recordin_374fef11_b0fe16b5_trace.jpg"
+			errthumb=".\Recordin_374fef11_b0fe16b5_trace_thumb.jpg">
+			<message>
+				Mouse Left Click item 'SnapX.ToolBar' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@processname='Snap-X']/element[@controlid='94']"
+				fullname="Copy_FunctionalityRepository.SnapX.ToolBar"
+				id="1fe9f8c08bb641c28f8121e92e06bcb3"
+				timeout="60000"
+				codefile="d:\Joro\GIT_Automations\VERSION 3\AutomationCopy\Copy_Functionality\Copy_Functionality\Recording1.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:33.757"
+			timeRelativeToTestModuleStartTime="00:33.757"
+			timeWallClock="10:42:16"
+			time="00:33.757"
+			level="Error"
+			category="User"
+			errimg=".\Recordin_374fef11_0725ed73_trace.jpg"
+			errthumb=".\Recordin_374fef11_0725ed73_trace_thumb.jpg">
+			<message>
+				The test run has been aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

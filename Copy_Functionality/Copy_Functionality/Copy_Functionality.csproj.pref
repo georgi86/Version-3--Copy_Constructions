@@ -1,0 +1,16 @@
+﻿<Properties>
+  <Array name="active">
+    <Element value="Action_StepByStep.rxrec" />
+  </Array>
+  <Array name="bookmarks" />
+  <Array name="files">
+    <Element value="Copy_Functionality.rxtst" />
+    <Element value="Action_StepByStep.rxrec" />
+  </Array>
+  <Properties name="projectSavedData">
+    <Properties name="customTool">
+      <runOnBuild value="False" />
+    </Properties>
+    <Array name="recentusercodeselections" />
+  </Properties>
+</Properties>
