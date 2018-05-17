@@ -64,11 +64,6 @@ namespace Copy_Functionality
             TestModuleRunner.Run(Instance);
         }
 
-        private void Init()
-        {
-            
-        }
-
         /// <summary>
         /// Performs the playback of actions in this recording.
         /// </summary>
@@ -84,9 +79,32 @@ namespace Copy_Functionality
 
             Init();
 
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SnapXUntitled.TitleBar' at Center.", repo.SnapXUntitled.TitleBarInfo, new RecordItemIndex(0));
+            string strBigModeCaptionText = "Measure";
+
+            bool bBigMode = true;
+
+            try
+            {
+                Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SnapXUntitled.TextMeasure' at Center.", repo.SnapXUntitled.TextMeasureInfo, new RecordItemIndex(0));
+                repo.SnapXUntitled.TextMeasure.MoveTo();
+                Delay.Milliseconds(200);
+
+                bBigMode = repo.SnapXUntitled.TextMeasure.TextValue.CompareTo(strBigModeCaptionText) == 0 && repo.SnapXUntitled.TextMeasure.Visible;
+            }
+
+            catch (Exception ex)
+            {
+            }
+
+            if (!bBigMode)
+
+                repo.SnapXUntitled.SwitchToSensor.Click();
+                Delay.Milliseconds(500);
+            
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SnapXUntitled.TitleBar' at Center.", repo.SnapXUntitled.TitleBarInfo, new RecordItemIndex(2));
             repo.SnapXUntitled.TitleBar.Click();
-            Thread.Sleep(200);
+            Delay.Milliseconds(200);
 
             Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '{LMenu}'.", new RecordItemIndex(1));
             Keyboard.Press("{LMenu}");
@@ -107,7 +125,7 @@ namespace Copy_Functionality
 
             Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '{Return}'.", new RecordItemIndex(6));
             Keyboard.Press("{Return}");
-            Thread.Sleep(2000);            
+            Thread.Sleep(2000);
 
             Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SnapXUntitled.TitleBar' at Center.", repo.SnapXUntitled.TitleBarInfo, new RecordItemIndex(8));
             repo.SnapXUntitled.TitleBar.Click();
@@ -138,11 +156,11 @@ namespace Copy_Functionality
             Thread.Sleep(100);
 
             Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'f'.", new RecordItemIndex(15));
-            Keyboard.Press("f");            
+            Keyboard.Press("f");
             Thread.Sleep(100);
 
             Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'n'.", new RecordItemIndex(16));
-            Keyboard.Press("n");            
+            Keyboard.Press("n");
             Thread.Sleep(500);
 
             ////// Inspect the Result /////////
@@ -151,11 +169,10 @@ namespace Copy_Functionality
             string strCopyValues = "D:\\Joro\\GIT_Automations\\VERSION 3\\AutomationCopy\\Reports\\ActualValues.STA";
             string strHardcodedValue = "D:\\Joro\\GIT_Automations\\VERSION 3\\AutomationCopy\\Reports\\HardcodedValues.STA";
 
-            UtilityRun.RunCopy(strCopyValues, strHardcodedValue);            
+            UtilityRun.RunCopy(strCopyValues, strHardcodedValue);
             Thread.Sleep(1000);
 
-
-        }       
+        }
 
         #region Image Feature Data
         #endregion

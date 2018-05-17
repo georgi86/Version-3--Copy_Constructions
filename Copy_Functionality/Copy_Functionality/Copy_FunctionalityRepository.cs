@@ -97,6 +97,8 @@ namespace Copy_Functionality
         public partial class SnapXUntitledAppFolder : RepoGenBaseFolder
         {
             RepoItemInfo _titlebarInfo;
+            RepoItemInfo _switchtosensorInfo;
+            RepoItemInfo _textmeasureInfo;
 
             /// <summary>
             /// Creates a new SnapXUntitled  folder.
@@ -105,6 +107,8 @@ namespace Copy_Functionality
                     base("SnapXUntitled", "/form[@title='Snap-X - [Untitled]']", parentFolder, 600000, null, true, "13d278db-9880-4db7-a514-5c0b5c50e6bc", "")
             {
                 _titlebarInfo = new RepoItemInfo(this, "TitleBar", "element[@controlid='94']", 300000, null, "9c9bfffd-1332-4aec-93b7-6e42afaf4b29");
+                _switchtosensorInfo = new RepoItemInfo(this, "SwitchToSensor", "container[@controlid='59648']/form[@title='Untitled']/?/?/element[@controlid='59650']/element[@controlid='59648']/toolbar[@controlid='59392']/button[@commandid='40029']", 30000, null, "64bc9760-cd50-4f7f-9d6b-eebe2240ddf4");
+                _textmeasureInfo = new RepoItemInfo(this, "TextMeasure", "container[@controlid='59648']/form[@title='Untitled']//text[@controlid='2394']", 30000, null, "6bf84b32-1613-4fb0-b511-09cb2bb73f31");
             }
 
             /// <summary>
@@ -152,6 +156,54 @@ namespace Copy_Functionality
                 get
                 {
                     return _titlebarInfo;
+                }
+            }
+
+            /// <summary>
+            /// The SwitchToSensor item.
+            /// </summary>
+            [RepositoryItem("64bc9760-cd50-4f7f-9d6b-eebe2240ddf4")]
+            public virtual Ranorex.Button SwitchToSensor
+            {
+                get
+                {
+                    return _switchtosensorInfo.CreateAdapter<Ranorex.Button>(true);
+                }
+            }
+
+            /// <summary>
+            /// The SwitchToSensor item info.
+            /// </summary>
+            [RepositoryItemInfo("64bc9760-cd50-4f7f-9d6b-eebe2240ddf4")]
+            public virtual RepoItemInfo SwitchToSensorInfo
+            {
+                get
+                {
+                    return _switchtosensorInfo;
+                }
+            }
+
+            /// <summary>
+            /// The TextMeasure item.
+            /// </summary>
+            [RepositoryItem("6bf84b32-1613-4fb0-b511-09cb2bb73f31")]
+            public virtual Ranorex.Text TextMeasure
+            {
+                get
+                {
+                    return _textmeasureInfo.CreateAdapter<Ranorex.Text>(true);
+                }
+            }
+
+            /// <summary>
+            /// The TextMeasure item info.
+            /// </summary>
+            [RepositoryItemInfo("6bf84b32-1613-4fb0-b511-09cb2bb73f31")]
+            public virtual RepoItemInfo TextMeasureInfo
+            {
+                get
+                {
+                    return _textmeasureInfo;
                 }
             }
         }

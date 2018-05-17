@@ -67,6 +67,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Action_StepByStep.UserCode.cs">
+      <BoundTo>136f2d87-09bc-411e-a996-2e089d1a5f7c</BoundTo>
+      <DependentUpon>Action_StepByStep.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>a58bc0f5-d756-4423-a402-6f1708e17e02</id>
+    </Compile>
     <Compile Include="AssemblyInfo.cs">
       <id>6440de12-05c7-4ebb-b28a-8a4ea51f9c6d</id>
     </Compile>
@@ -85,7 +91,9 @@
       <RecorderCode>true</RecorderCode>
       <id>de0295ce-82a6-4dc8-9a78-536d7598cf62</id>
     </Compile>
-    <Compile Include="UtilityFunctions.cs" />
+    <Compile Include="UtilityFunctions.cs">
+      <id>0e13ea4c-eef7-406b-9a77-52499104f999</id>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config">

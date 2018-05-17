@@ -37,6 +37,54 @@ rxversion="7.0">
 		loc="Center"
 		movetime="300ms"
 		optional="False"
+		searchpropertyid="9501ca80-abb4-4b43-b429-65d85d28c678"
+		sx="0"
+		sy="0"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="6bf84b32-1613-4fb0-b511-09cb2bb73f31"
+			sourcename="RepositoryEditor">
+				<path>
+					/form[@title='Snap-X - [Untitled]']/container[@controlid='59648']/form[@title='Untitled']//text[@controlid='2394']
+				</path>
+			</info>
+		</mouseitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="500ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="48c53ad5-fa4a-46a3-a211-cc681d481b87"
+		sx="0"
+		sy="0"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="64bc9760-cd50-4f7f-9d6b-eebe2240ddf4"
+			sourcename="RepositoryEditor">
+				<path>
+					/form[@title='Snap-X - [Untitled]']/container[@controlid='59648']/form[@title='Untitled']/?/?/element[@controlid='59650']/element[@controlid='59648']/toolbar[@controlid='59392']/button[@commandid='40029']
+				</path>
+			</info>
+		</mouseitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="500ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
 		searchpropertyid="6f0a3a61-791a-443c-8250-b0eb2f6eaf42"
 		sx="1510"
 		sy="13"
